@@ -9,6 +9,8 @@
 - Next.js
 - Tailwind CSS
 - TypeScript
+- HTML5
+- React.js
 
 ## Features
 
