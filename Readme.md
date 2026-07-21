@@ -2,13 +2,15 @@
 
 <!-- Add logo below -->
 
-![QBcare Remedies Logo](https://raw.githubusercontent.com/zuhairabs/qbcare-landing/main/assets/images/qbcare-logo-white.png)
+![QBcare Remedies Logo](https://raw.githubusercontent.com/zuhairabs/qbcare-landing/main/assets/images/qbcare-logo.png)
 
 ## Tech Stack
 
 - Next.js
 - Tailwind CSS
 - TypeScript
+- HTML5
+- React.js
 
 ## Features
 
