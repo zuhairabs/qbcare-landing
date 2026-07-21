@@ -72,15 +72,27 @@
       <link href="//napiers.net/cdn/shop/t/41/assets/main.min.css?v=16929967318652221371777479911" rel="stylesheet">
       <link href="/assets/css/styles.css" rel="stylesheet">
       <meta name="description" content="Trusted manufacturer and exporter of premium herbal products from India, including essential oils, herbal powders, henna hair colors, natural cosmetics, and Ayurvedic ingredients.">
-      <link rel="icon" type="image/svg+xml" href="//napiers.net/cdn/shop/t/41/assets/favicon.svg?v=90176432179609127821777479910">
+      <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
       <!-- TODO: Logo icons -->
-      <link rel="apple-touch-icon" sizes="180x180" href="//napiers.net/cdn/shop/t/41/assets/apple-touch-icon.png?v=160161340150088544661777479908">
-      <link rel="manifest" href="//napiers.net/cdn/shop/t/41/assets/site.webmanifest?v=126518463735428213031777479962">
-      <link rel="mask-icon" href="//napiers.net/cdn/shop/t/41/assets/safari-pinned-tab.svg?v=25239784829246871211777479905" color="#164F49">
+       <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="assets/icons/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="assets/icons/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="assets/icons/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="assets/icons/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="assets/icons/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="assets/icons/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="assets/icons/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="assets/icons/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16x16.png">
+      <link rel="manifest" href="assets/icons/manifest.json">
+      <meta name="msapplication-TileColor" content="#164F49">
+      <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+      <meta name="theme-color" content="#164f49">
       <meta name="apple-mobile-web-app-title" content="QBcare Remedies">
       <meta name="application-name" content="Natural Excellence in Every Product">
-      <meta name="msapplication-TileColor" content="#164F49">
-      <meta name="theme-color" content="#164F49">
       <link rel="canonical" href="https://qbcare.in/">
       <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
       <meta property="og:site_name" content="QBcare Remedies">
@@ -88,15 +100,15 @@
       <meta property="og:title" content="QBcare Remedies | Natural Excellence in Every Product">
       <meta property="og:type" content="website">
       <meta property="og:description" content="Trusted manufacturer and exporter of premium herbal products from India, including essential oils, herbal powders, henna hair colors, natural cosmetics, and Ayurvedic ingredients.">
-      <meta property="og:image" content="http://napiers.net/cdn/shop/files/Napiers-logo_f8e0af9f-9a49-4335-8e81-51ca5e1a1043.png?v=1712058011">
+      <meta property="og:image" content="assets/images/og-image.jpg">
       <meta property="og:image:alt" content="">
-      <meta property="og:image:secure_url" content="https://napiers.net/cdn/shop/files/Napiers-logo_f8e0af9f-9a49-4335-8e81-51ca5e1a1043.png?v=1712058011">
-      <meta property="og:image:width" content="2360">
-      <meta property="og:image:height" content="884">
+      <meta property="og:image:secure_url" content="assets/images/og-image.jpg">
+      <meta property="og:image:width" content="1424">
+      <meta property="og:image:height" content="752">
       <meta name="twitter:card" content="summary_large_image">
       <meta name="twitter:title" content="QBcare Remedies | Natural Excellence in Every Product">
       <meta name="twitter:description" content="Trusted manufacturer and exporter of premium herbal products from India, including essential oils, herbal powders, henna hair colors, natural cosmetics, and Ayurvedic ingredients.">
-      <meta name="twitter:image" content="https://napiers.net/cdn/shop/files/Napiers-logo_f8e0af9f-9a49-4335-8e81-51ca5e1a1043.png?v=1712058011">
+      <meta name="twitter:image" content="assets/images/og-image.jpg">
       <meta name="twitter:image:alt" content="">
       <script src="//searchanise-ef84.kxcdn.com/widgets/shopify/init.js?a=3X3r7H1B7Y"></script>
       <script>window.performance && window.performance.mark && window.performance.mark('shopify.content_for_header.start');</script>
@@ -141,7 +153,7 @@
                            </span>
                         </button>
                         <a
-                           class="header-logo"
+                           class="trademark-logo header-logo"
                            aria-label="Go to homepage"
                            href="/"
                            >
@@ -163,277 +175,84 @@
                         >
                         <div class="mn-flex-col">
                            <div class="mn-scroll-area">
-                              <div class="mn-shop-zone">
-                                 <button
-                                    @click="shopShowSubmenuParent = !shopShowSubmenuParent"
-                                    class="mn-top-link"
-                                    >
-                                    <span class="mn-top-link-text">Shop</span>
-                                    <span class="mn-chev-wrap" :class="{ 'mn-chev-open': shopShowSubmenuParent }">
-                                       <svg aria-hidden="true"  class="w-[14px] h-[9px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="4 10 8 4">
-                                          <path stroke="currentColor" d="m4 10 4 4 4-4"/>
-                                       </svg>
-                                    </span>
-                                 </button>
-                                 <div x-cloak x-show="shopShowSubmenuParent" class="mn-shop-body">
-                                    <a href="/collections/twin-packs" class="mn-promo-banner" aria-label="Shop Twin Packs">
-                                       <div class="mn-promo-left">
-                                          <span class="mn-promo-eyebrow">Get Two, Save More</span>
-                                          <span class="mn-promo-headline">Shop Twin Packs</span>
-                                          <span class="mn-promo-subline">Your favourite QBcare Remedies products, better value</span>
-                                       </div>
-                                       <div class="mn-promo-right">
-                                          <span class="mn-promo-badge-big">15% Off</span>
-                                          <span class="mn-promo-badge-sub">Save Now</span>
-                                       </div>
-                                    </a>
-                                    <a href="/collections/all-products" class="mn-shop-all-row">
-                                       <span>Shop All Products</span>
-                                       <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                          <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                       </svg>
-                                    </a>
-                                    <div class="mn-nested-acc">
-                                       <button @click="shopConcernOpen = !shopConcernOpen" class="mn-nested-trigger">
-                                          <span class="mn-section-lbl">Shop by Concern</span>
-                                          <span class="mn-chev-wrap" :class="{ 'mn-chev-open': shopConcernOpen }">
-                                             <svg aria-hidden="true"  class="w-[12px] h-[8px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="4 10 8 4">
-                                                <path stroke="currentColor" d="m4 10 4 4 4-4"/>
-                                             </svg>
-                                          </span>
-                                       </button>
-                                       <div x-cloak x-show="shopConcernOpen" class="mn-nested-body">
-                                          <a href="/collections/sleep" class="mn-flat-link">
-                                             <span>Sleep</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/stress" class="mn-flat-link">
-                                             <span>Stress</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/energy" class="mn-flat-link">
-                                             <span>Energy</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/digestive-health" class="mn-flat-link">
-                                             <span>Digestive Health</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/immune-health" class="mn-flat-link">
-                                             <span>Immune Health</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/joints-and-muscles" class="mn-flat-link">
-                                             <span>Joints & Muscles</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/womens-health" class="mn-flat-link">
-                                             <span>Womens Health</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/mens-health" class="mn-flat-link">
-                                             <span>Mens Health</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/cognitive-health" class="mn-flat-link">
-                                             <span>Cognitive Health</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/skin-health" class="mn-flat-link">
-                                             <span>Skin Health</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/heart-health" class="mn-flat-link">
-                                             <span>Heart Health</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/detox" class="mn-flat-link">
-                                             <span>Detox</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/hair-skin-and-nails" class="mn-flat-link">
-                                             <span>Hair, Skin & Nails</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/allergies" class="mn-flat-link">
-                                             <span>Allergies</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/childrens-health" class="mn-flat-link">
-                                             <span>Childrens Health</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                       </div>
-                                    </div>
-                                    <div class="mn-nested-acc">
-                                       <button @click="shopProductOpen = !shopProductOpen" class="mn-nested-trigger">
-                                          <span class="mn-section-lbl">Shop by Product</span>
-                                          <span class="mn-chev-wrap" :class="{ 'mn-chev-open': shopProductOpen }">
-                                             <svg aria-hidden="true"  class="w-[12px] h-[8px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="4 10 8 4">
-                                                <path stroke="currentColor" d="m4 10 4 4 4-4"/>
-                                             </svg>
-                                          </span>
-                                       </button>
-                                       <div x-cloak x-show="shopProductOpen" class="mn-nested-body">
-                                          <a href="https://napiers.net/collections/beauty-skincare" class="mn-flat-link">
-                                             <span>Beauty & Skincare</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="https://napiers.net/collections/body-care" class="mn-flat-link">
-                                             <span>Body Care</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="https://napiers.net/collections/aromatherapy" class="mn-flat-link">
-                                             <span>Aromatherapy</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/napiers-dried-herbs" class="mn-flat-link">
-                                             <span>Dried Herbs</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/tinctures" class="mn-flat-link">
-                                             <span>Tinctures & Extracts</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="/collections/vitamins-minerals" class="mn-flat-link">
-                                             <span>Vitamins & Supplements</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                          <a href="https://napiers.net/collections/shop-all-lifestyle" class="mn-flat-link">
-                                             <span>Lifestyle</span>
-                                             <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                             </svg>
-                                          </a>
-                                       </div>
-                                    </div>
-                                    <div class="mn-flat-div" aria-hidden="true"></div>
-                                    <a href="/collections/napiers-bundles-giftsets" class="mn-flat-link mn-flat-link--badged">
-                                    <span>Bundles</span>
-                                    <span class="mn-badge mn-badge--green">15% Off</span>
-                                    </a>
-                                    <a href="https://napiers.net/collections/napiers-bestselling" class="mn-flat-link mn-flat-link--badged">
-                                    <span>Shop Bestsellers</span>
-                                    <span class="mn-badge mn-badge--amber">Most Loved</span>
-                                    </a>
-                                    <a href="/collections/sale" class="mn-flat-link mn-flat-link--badged">
-                                    <span>Shop Sale</span>
-                                    <span class="mn-badge mn-badge--red">Offers</span>
-                                    </a>
-                                 </div>
-                              </div>
-                              <a href="/collections/prescriptions" class="mn-rx-row">
-                                 <span class="mn-rx-label">Prescriptions</span>
-                                 <svg aria-hidden="true"  class="mn-rx-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                    <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                 </svg>
-                              </a>
                               <div class="mn-zone-div" aria-hidden="true"></div>
                               <div class="mn-secondary-zone">
+                                 <a href="/"  class="mn-sec-direct-link">Home</a>
                                  <button
-                                    @click="showSubmenuParent = showSubmenuParent == 'QBcare Remedies' ? '' : 'QBcare Remedies'; activeSubmenu = ''; activeGrandchildSubmenu = '';"
+                                    @click="showSubmenuParent = showSubmenuParent == 'Products' ? '' : 'Products'; activeSubmenu = ''; activeGrandchildSubmenu = '';"
                                     class="mn-sec-acc-trigger"
                                     >
-                                    <span class="mn-sec-link-text">QBcare Remedies</span>
-                                    <span class="mn-chev-wrap" :class="{ 'mn-chev-open': showSubmenuParent == 'QBcare Remedies' }">
+                                    <span class="mn-sec-link-text">Products</span>
+                                    <span class="mn-chev-wrap" :class="{ 'mn-chev-open': showSubmenuParent == 'Products' }">
                                        <svg aria-hidden="true"  class="w-[12px] h-[8px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="4 10 8 4">
                                           <path stroke="currentColor" d="m4 10 4 4 4-4"/>
                                        </svg>
                                     </span>
                                  </button>
-                                 <div x-cloak x-show="showSubmenuParent == 'QBcare Remedies'" class="mn-napiers-body">
-                                    <a href="/pages/the-napiers-story" class="mn-sub-link">
-                                       <span>Our History</span>
+                                 <div x-cloak x-show="showSubmenuParent == 'Products'" class="mn-napiers-body">
+                                    <a href="/products/hibiscus-flower-powder" class="mn-sub-link">
+                                       <span>Hibiscus Flower Powder</span>
                                        <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
                                           <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
                                        </svg>
                                     </a>
-                                    <a href="/pages/stores" class="mn-sub-link">
-                                       <span>Our Locations</span>
+                                    <a href="/products/herbal-shikakai-powder" class="mn-sub-link">
+                                       <span>Herbal Shikakai Powder</span>
                                        <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
                                           <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
                                        </svg>
                                     </a>
-                                    <a href="/pages/therapies" class="mn-sub-link">
-                                       <span>Our Therapies</span>
+                                    <a href="/products/herbal-bhringraj-powder" class="mn-sub-link">
+                                       <span>Herbal Bhringraj Powder</span>
                                        <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
                                           <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
                                        </svg>
                                     </a>
-                                    <a href="/pages/practitioners" class="mn-sub-link">
-                                       <span>Our Practitioners</span>
+                                    <a href="/products/herbal-soap-nut-powder" class="mn-sub-link">
+                                       <span>Herbal Soap Nut Powder</span>
                                        <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
                                           <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
                                        </svg>
                                     </a>
-                                    <a href="/pages/napiers-rewards-club" class="mn-sub-link">
-                                       <span>QBcare Remedies Rewards</span>
+                                    <a href="/products/herbal-amla-powder" class="mn-sub-link">
+                                       <span>Herbal Amla Powder</span>
                                        <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
                                           <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
                                        </svg>
                                     </a>
-                                    <a href="/pages/therapies/claid" class="mn-sub-link">
-                                       <span>CLAID Clinic</span>
+                                    <a href="/products/ultra-filter-filtered-henna-powder" class="mn-sub-link">
+                                       <span>Ultra Filter Filtered Henna Powder</span>
                                        <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
                                           <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
                                        </svg>
                                     </a>
-                                    <a href="/pages/support-centre" class="mn-sub-link">
-                                       <span>Support Centre</span>
+                                    <a href="/products/pure-eucalyptus-extract-oil" class="mn-sub-link">
+                                       <span>Pure Eucalyptus Extract Oil</span>
                                        <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
                                           <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
                                        </svg>
                                     </a>
-                                    <a href="/pages/contact-us" class="mn-sub-link">
-                                       <span>Get in Touch</span>
+                                    <a href="/products/pure-henna-extract-oil" class="mn-sub-link">
+                                       <span>Pure Henna Extract Oil</span>
+                                       <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                          <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                       </svg>
+                                    </a>
+                                    <a href="/products/brown-henna-hair-oil" class="mn-sub-link">
+                                       <span>Brown Henna Hair Oil</span>
+                                       <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                          <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                       </svg>
+                                    </a>
+                                    <a href="/products/black-henna-hair-color" class="mn-sub-link">
+                                       <span>Black Henna Hair Color</span>
                                        <svg aria-hidden="true"  class="mn-link-arrow size-[14px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
                                           <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
                                        </svg>
                                     </a>
                                  </div>
-                                 <a href="/blogs/news"  class="mn-sec-direct-link">Blog</a>
+                                 <a href="/about-us"  class="mn-sec-direct-link">About Us</a>
+                                 <a href="/contact-us"  class="mn-sec-direct-link">Contact Us</a>
                               </div>
                               <div class="mn-trust-block">
                                  <div class="mn-trust-item">
@@ -446,35 +265,35 @@
                                     </span>
                                     <span class="mn-trust-text">Tried • Tested • Trusted</span>
                                  </div>
-                                 <div class="mn-trust-item">
-                                    <span class="mn-trust-icon-wrap">
-                                       <svg aria-hidden="true"  class="size-[15px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 25">
-                                          <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-                                             <path d="M12 15.8955c3.3137 0 6-2.6863 6-5.99999 0-3.31371-2.6863-6-6-6-3.31371 0-6 2.68629-6 6 0 3.31369 2.68629 5.99999 6 5.99999Z"/>
-                                             <path d="M3 21.1455c1.81594-3.1378 5.11406-5.25 9-5.25 3.8859 0 7.1841 2.1122 9 5.25"/>
-                                          </g>
-                                       </svg>
-                                    </span>
-                                    <span class="mn-trust-text">Scotland's Oldest Herbal Apothecary</span>
-                                 </div>
-                                 <div class="mn-trust-item">
-                                    <span class="mn-trust-icon-wrap">
-                                       <svg aria-hidden="true"  class="size-[15px]"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                          <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                       </svg>
-                                    </span>
-                                    <span class="mn-trust-text">Free UK shipping over £65</span>
-                                 </div>
                               </div>
                            </div>
                            <div class="mn-bottom-btns">
-                              <a href="#" class="mn-btn-primary">Book a Consultation</a>
+                              <a href="https://wa.me/919891349202?text=I%20am%20interested%20in%20your%20products%2C%20please%20share%20details" target="_blank" class="mn-btn-primary">Get a Quote</a>
                            </div>
                         </div>
                      </div>
                      <div class="desktop-nav-container hidden lg:flex items-center flex-1">
                         <nav class="header-nav header-nav--desktop">
                            <ul class="flex items-center">
+                              <li
+                                 class="
+                                 header-link
+                                 [&:has(.submenu:hover)_.submenu-chev]:!rotate-180 [&:has(>a:hover)_.submenu-chev]:!rotate-180 [&:focus-within_.submenu-chev]:!rotate-180
+                                 [&:has(a:hover)>.submenu]:!h-auto [&:has(a:hover)>.submenu]:!overflow-auto [&:has(a:hover)>.submenu]:!pointer-events-auto [&:has(a:hover)>.submenu]:!opacity-100 [&:has(a:hover)>.submenu]:!translate-y-0
+                                 [&:focus-within>.submenu]:z-[1] [&:focus-within>.submenu]:!h-auto [&:focus-within>.submenu]:!overflow-auto [&:focus-within>.submenu]:!pointer-events-auto [&:focus-within>.submenu]:!opacity-100 [&:focus-within>.submenu]:!translate-y-0
+                                 [&:has(>.submenu:hover)>.overlay]:!opacity-100 [&:has(a:hover)>.overlay]:!opacity-100
+                                 [&:has(a:hover)_.hoversafe-triangle]:!block
+                                 "
+                                 >
+                                 <a
+                                    href="/"
+                                    class="relative flex py-[30px] px-[16px] peer-link"
+                                    >
+                                 <span class="inline-flex items-center justify-center gap-[6px] ">
+                                 <span class="text-black font-heading para-2 !leading-[1.2]">Home</span>
+                                 </span>
+                                 </a>
+                              </li>
                               <li
                                  class="
                                  header-link
@@ -535,371 +354,134 @@
                                     <div class="desktop-shop-menu bg-white" style="--desktop-concern-icon-size: 40px;">
                                        <div class="desktop-shop-grid">
                                           <div class="desktop-shop-column">
-                                             <h3 class="desktop-shop-heading font-heading">Categories</h3>
+                                             <h3 class="desktop-shop-heading font-heading">Products</h3>
                                              <ul class="desktop-shop-concern-grid">
                                                 <li>
-                                                   <a href="/collections/sleep" class="desktop-shop-concern-item group/link">
+                                                   <a href="/products/hibiscus-flower-powder" class="desktop-shop-concern-item group/link">
                                                    <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Sleep_Stress_Mood.png?crop=center&height=32&v=1711098445"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Sleep_Stress_Mood.png?crop=center&height=64&v=1711098445 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
+                                                   <svg aria-hidden="true"  class="menu-products-arrow text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                                      <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                                   </svg>
                                                    </span>
                                                    <span class="desktop-shop-concern-label">
-                                                   Sleep
+                                                      Hibiscus Flower Powder
                                                    </span>
                                                    </a>
                                                 </li>
                                                 <li>
-                                                   <a href="/collections/stress" class="desktop-shop-concern-item group/link">
+                                                   <a href="/products/herbal-shikakai-powder" class="desktop-shop-concern-item group/link">
                                                    <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Reduce_Stress.png?crop=center&height=32&v=1711098444"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Reduce_Stress.png?crop=center&height=64&v=1711098444 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
+                                                   <svg aria-hidden="true"  class="menu-products-arrow text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                                      <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                                   </svg>
                                                    </span>
                                                    <span class="desktop-shop-concern-label">
-                                                   Stress
+                                                      Herbal Shikakai Powder
                                                    </span>
                                                    </a>
                                                 </li>
                                                 <li>
-                                                   <a href="/collections/energy" class="desktop-shop-concern-item group/link">
+                                                   <a href="/products/herbal-bhringraj-powder" class="desktop-shop-concern-item group/link">
                                                    <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Energy_Metabolism.png?crop=center&height=32&v=1711098445"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Energy_Metabolism.png?crop=center&height=64&v=1711098445 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
+                                                   <svg aria-hidden="true"  class="menu-products-arrow text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                                      <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                                   </svg>
                                                    </span>
                                                    <span class="desktop-shop-concern-label">
-                                                   Energy
+                                                      Herbal Bhringraj Powder
                                                    </span>
                                                    </a>
                                                 </li>
                                                 <li>
-                                                   <a href="/collections/digestive-health" class="desktop-shop-concern-item group/link">
+                                                   <a href="/products/herbal-soap-nut-powder" class="desktop-shop-concern-item group/link">
                                                    <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Gut_Health.png?crop=center&height=32&v=1711098444"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Gut_Health.png?crop=center&height=64&v=1711098444 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
+                                                   <svg aria-hidden="true"  class="menu-products-arrow text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                                      <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                                   </svg>
                                                    </span>
                                                    <span class="desktop-shop-concern-label">
-                                                   Digestive Health
+                                                      Herbal Soap Nut Powder
                                                    </span>
                                                    </a>
                                                 </li>
                                                 <li>
-                                                   <a href="/collections/immune-health" class="desktop-shop-concern-item group/link">
+                                                   <a href="/products/herbal-amla-powder" class="desktop-shop-concern-item group/link">
                                                    <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Immune_Health.png?crop=center&height=32&v=1711098445"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Immune_Health.png?crop=center&height=64&v=1711098445 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
+                                                   <svg aria-hidden="true"  class="menu-products-arrow text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                                      <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                                   </svg>
                                                    </span>
                                                    <span class="desktop-shop-concern-label">
-                                                   Immune Health
+                                                      Herbal Amla Powder
                                                    </span>
                                                    </a>
                                                 </li>
                                                 <li>
-                                                   <a href="/collections/joints-and-muscles" class="desktop-shop-concern-item group/link">
+                                                   <a href="/products/ultra-filter-filtered-henna-powder" class="desktop-shop-concern-item group/link">
                                                    <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Treat_Muscle_Pain.png?crop=center&height=32&v=1711098445"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Treat_Muscle_Pain.png?crop=center&height=64&v=1711098445 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
+                                                   <svg aria-hidden="true"  class="menu-products-arrow text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                                      <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                                   </svg>
                                                    </span>
                                                    <span class="desktop-shop-concern-label">
-                                                   Joints & Muscles
+                                                      Ultra Filter Filtered Henna Powder
                                                    </span>
                                                    </a>
                                                 </li>
                                                 <li>
-                                                   <a href="/collections/womens-health" class="desktop-shop-concern-item group/link">
+                                                   <a href="/products/pure-eucalyptus-extract-oil" class="desktop-shop-concern-item group/link">
                                                    <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Women_s_Health.png?crop=center&height=32&v=1711098444"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Women_s_Health.png?crop=center&height=64&v=1711098444 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
+                                                   <svg aria-hidden="true"  class="menu-products-arrow text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                                      <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                                   </svg>
                                                    </span>
                                                    <span class="desktop-shop-concern-label">
-                                                   Womens Health
+                                                      Pure Eucalyptus Extract Oil
                                                    </span>
                                                    </a>
                                                 </li>
                                                 <li>
-                                                   <a href="/collections/mens-health" class="desktop-shop-concern-item group/link">
+                                                   <a href="/products/pure-henna-extract-oil" class="desktop-shop-concern-item group/link">
                                                    <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Men_s_Health.png?crop=center&height=32&v=1711098445"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Men_s_Health.png?crop=center&height=64&v=1711098445 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
+                                                   <svg aria-hidden="true"  class="menu-products-arrow text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                                      <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                                   </svg>
                                                    </span>
                                                    <span class="desktop-shop-concern-label">
-                                                   Mens Health
+                                                      Pure Henna Extract Oil
                                                    </span>
                                                    </a>
                                                 </li>
                                                 <li>
-                                                   <a href="/collections/cognitive-health" class="desktop-shop-concern-item group/link">
+                                                   <a href="/products/brown-henna-hair-color" class="desktop-shop-concern-item group/link">
                                                    <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Brain_Health_Focus.png?crop=center&height=32&v=1711098444"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Brain_Health_Focus.png?crop=center&height=64&v=1711098444 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
+                                                   <svg aria-hidden="true"  class="menu-products-arrow text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                                      <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                                   </svg>
                                                    </span>
                                                    <span class="desktop-shop-concern-label">
-                                                   Cognitive Health
+                                                      Brown Henna Hair Color
                                                    </span>
                                                    </a>
                                                 </li>
                                                 <li>
-                                                   <a href="/collections/skin-health" class="desktop-shop-concern-item group/link">
+                                                   <a href="/products/black-henna-hair-color" class="desktop-shop-concern-item group/link">
                                                    <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Face_Skincare.png?crop=center&height=32&v=1711098445"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Face_Skincare.png?crop=center&height=64&v=1711098445 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
+                                                   <svg aria-hidden="true"  class="menu-products-arrow text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
+                                                      <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
+                                                   </svg>
                                                    </span>
                                                    <span class="desktop-shop-concern-label">
-                                                   Skin Health
-                                                   </span>
-                                                   </a>
-                                                </li>
-                                                <li>
-                                                   <a href="/collections/heart-health" class="desktop-shop-concern-item group/link">
-                                                   <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Health_Wellbeing.png?crop=center&height=32&v=1711098445"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Health_Wellbeing.png?crop=center&height=64&v=1711098445 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
-                                                   </span>
-                                                   <span class="desktop-shop-concern-label">
-                                                   Heart Health
-                                                   </span>
-                                                   </a>
-                                                </li>
-                                                <li>
-                                                   <a href="/collections/detox" class="desktop-shop-concern-item group/link">
-                                                   <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Detox.png?crop=center&height=32&v=1711098445"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Detox.png?crop=center&height=64&v=1711098445 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
-                                                   </span>
-                                                   <span class="desktop-shop-concern-label">
-                                                   Detox
-                                                   </span>
-                                                   </a>
-                                                </li>
-                                                <li>
-                                                   <a href="/collections/hair-skin-and-nails" class="desktop-shop-concern-item group/link">
-                                                   <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Hair_Care.png?crop=center&height=32&v=1711098445"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Hair_Care.png?crop=center&height=64&v=1711098445 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
-                                                   </span>
-                                                   <span class="desktop-shop-concern-label">
-                                                   Hair, Skin & Nails
-                                                   </span>
-                                                   </a>
-                                                </li>
-                                                <li>
-                                                   <a href="/collections/allergies" class="desktop-shop-concern-item group/link">
-                                                   <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/Icon_Allergy_Relief.png?crop=center&height=32&v=1711098444"
-                                                      srcset="//napiers.net/cdn/shop/files/Icon_Allergy_Relief.png?crop=center&height=64&v=1711098444 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
-                                                   </span>
-                                                   <span class="desktop-shop-concern-label">
-                                                   Allergies
-                                                   </span>
-                                                   </a>
-                                                </li>
-                                                <li>
-                                                   <a href="/collections/childrens-health" class="desktop-shop-concern-item group/link">
-                                                   <span class="desktop-shop-concern-icon-wrap shrink-0 flex justify-center items-center">
-                                                   <img
-                                                      src="//napiers.net/cdn/shop/files/children_1.png?crop=center&height=32&v=1755628015"
-                                                      srcset="//napiers.net/cdn/shop/files/children_1.png?crop=center&height=64&v=1755628015 2x"
-                                                      width="1"
-                                                      height="32"
-                                                      alt=""
-                                                      loading="lazy"
-                                                      class="desktop-shop-concern-icon"
-                                                      >
-                                                   </span>
-                                                   <span class="desktop-shop-concern-label">
-                                                   Childrens Health
+                                                      Black Henna Hair Color
                                                    </span>
                                                    </a>
                                                 </li>
                                              </ul>
-                                             <a class="desktop-shop-concerns-link" href="/collections/shop-by-concern">Show all categories &rarr;</a>
-                                          </div>
-                                          <div class="desktop-shop-column">
-                                             <h3 class="desktop-shop-heading font-heading">Products</h3>
-                                             <ul class="desktop-shop-product-list">
-                                                <li>
-                                                   <a href="https://napiers.net/collections/beauty-skincare">
-                                                      Beauty & Skincare
-                                                      <svg aria-hidden="true"  class="size-[10px] text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                         <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                                      </svg>
-                                                   </a>
-                                                </li>
-                                                <li>
-                                                   <a href="https://napiers.net/collections/body-care">
-                                                      Body Care
-                                                      <svg aria-hidden="true"  class="size-[10px] text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                         <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                                      </svg>
-                                                   </a>
-                                                </li>
-                                                <li>
-                                                   <a href="https://napiers.net/collections/aromatherapy">
-                                                      Aromatherapy
-                                                      <svg aria-hidden="true"  class="size-[10px] text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                         <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                                      </svg>
-                                                   </a>
-                                                </li>
-                                                <li>
-                                                   <a href="/collections/napiers-dried-herbs">
-                                                      Dried Herbs
-                                                      <svg aria-hidden="true"  class="size-[10px] text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                         <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                                      </svg>
-                                                   </a>
-                                                </li>
-                                                <li>
-                                                   <a href="/collections/tinctures">
-                                                      Tinctures & Extracts
-                                                      <svg aria-hidden="true"  class="size-[10px] text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                         <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                                      </svg>
-                                                   </a>
-                                                </li>
-                                                <li>
-                                                   <a href="/collections/vitamins-minerals">
-                                                      Vitamins & Supplements
-                                                      <svg aria-hidden="true"  class="size-[10px] text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                         <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                                      </svg>
-                                                   </a>
-                                                </li>
-                                                <li>
-                                                   <a href="https://napiers.net/collections/shop-all-lifestyle">
-                                                      Lifestyle
-                                                      <svg aria-hidden="true"  class="size-[10px] text-grey-80"  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 16">
-                                                         <path stroke="currentColor" stroke-width="1.5" d="M.000162 8H15.3335m0 0-6.08131 6m6.08131-6L9.2522 2"/>
-                                                      </svg>
-                                                   </a>
-                                                </li>
-                                             </ul>
-                                             <a href="/collections/all-products" class="desktop-shop-all-link para-3 mt-[8px] inline-flex">
-                                             Show All Products
-                                             </a>
+                                             <a class="desktop-shop-concerns-link" href="/collections/shop-by-concern">Show all products &rarr;</a>
                                           </div>
                                        </div>
                                     </div>
                                  </div>
-                              </li>
-                           </ul>
-                        </nav>
-                        <nav class="header-nav header-nav--desktop">
-                           <ul class="flex items-center justify-between">
-                              <li
-                                 class="
-                                 header-link
-                                 [&:has(.submenu:hover)_.submenu-chev]:!rotate-180 [&:has(>a:hover)_.submenu-chev]:!rotate-180 [&:focus-within_.submenu-chev]:!rotate-180
-                                 [&:has(a:hover)>.submenu]:!h-auto [&:has(a:hover)>.submenu]:!overflow-auto [&:has(a:hover)>.submenu]:!pointer-events-auto [&:has(a:hover)>.submenu]:!opacity-100 [&:has(a:hover)>.submenu]:!translate-y-0
-                                 [&:focus-within>.submenu]:z-[1] [&:focus-within>.submenu]:!h-auto [&:focus-within>.submenu]:!overflow-auto [&:focus-within>.submenu]:!pointer-events-auto [&:focus-within>.submenu]:!opacity-100 [&:focus-within>.submenu]:!translate-y-0
-                                 [&:has(>.submenu:hover)>.overlay]:!opacity-100 [&:has(a:hover)>.overlay]:!opacity-100
-                                 [&:has(a:hover)_.hoversafe-triangle]:!block
-                                 "
-                                 >
-                                 <a
-                                    href="/"
-                                    class="relative flex py-[30px] px-[16px] peer-link"
-                                    >
-                                 <span class="inline-flex items-center justify-center gap-[6px] ">
-                                 <span class="text-black font-heading para-2 !leading-[1.2]">Home</span>
-                                 </span>
-                                 </a>
                               </li>
                               <li
                                  class="
@@ -943,8 +525,7 @@
                         </nav>
                      </div>
                      <div class="header-utils ml-auto">
-                       <!-- Get a Quote Button -->
-                        <a href="/collections/all-products" class="get-a-quote-btn desktop-shop-all-link para-3 mt-[8px] inline-flex">
+                        <a href="https://wa.me/919891349202?text=I%20am%20interested%20in%20your%20products%2C%20please%20share%20details" target="_blank" class="get-a-quote-btn desktop-shop-all-link para-3 mt-[8px] inline-flex">
                             Get a Quote
                         </a>
                      </div>
@@ -2452,15 +2033,11 @@
                   <picture>
                      <source
                      media="(min-width: 768px)"
-                     srcset=","
-                     //napiers.net/cdn/shop/files/Complete_4_Week_Reset-Banner_02.jpg?crop=center&height=909&v=1767882928&width=1440
-                     //napiers.net/cdn/shop/files/Complete_4_Week_Reset-Banner_02.jpg?crop=center&height=1818&v=1767882928&width=2880 2x
+                     srcset="assets/images/banner-desktop.jpg"
                      >
                      <img
-                     src="//napiers.net/cdn/shop/files/Complete_4_Week_Reset-Banner_02.jpg?crop=center&height=1426&v=1767882928&width=750"
-                     srcset=","
-                     //napiers.net/cdn/shop/files/Complete_4_Week_Reset-Banner_02.jpg?crop=center&height=2852&v=1767882928&width=1500 2x
-                     //napiers.net/cdn/shop/files/Complete_4_Week_Reset-Banner_02.jpg?crop=center&height=4278&v=1767882928&width=2250 3x
+                     src="assets/images/mobile-banner.png"
+                     srcset="assets/images/mobile-banner.png"
                      sizes="100vw"
                      width="750"
                      height="1426"
@@ -8081,7 +7658,9 @@
                <!-- Logo & Address -->
                <div class="col-span-full md:col-start-1 md:col-span-3 row-start-1 md:row-span-2 flex flex-col space-y-[16px]">
                   <a aria-label="Go to homepage" href="/">
-                     <img class="w-[204px] h-auto" src="/assets/images/qbcare-logo-white.png" alt="logo">
+                     <span class="trademark-logo white">
+                        <img class="w-[204px] h-auto" src="/assets/images/qbcare-logo-white.png" alt="logo">
+                     </span>
                   </a>
                   <div class="mt-[16px] md:mt-[32px]">
                      <p class="text-white text-[16px] leading-relaxed">

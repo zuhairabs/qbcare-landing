@@ -65,3 +65,39 @@
 html::-webkit-scrollbar {
   display: none;
 }
+
+.trademark-logo {
+  position: relative;
+  display: inline-block;
+}
+
+.trademark-logo::after {
+  content: "®";
+  position: absolute;
+  top: -1px;
+  right: -16px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #024567;
+}
+
+.trademark-logo.white::after {
+  color: #ffffff;
+  top: 6px;
+}
+
+.desktop-shop-concern-icon,
+.desktop-shop-concern-icon-wrap svg.menu-products-arrow {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+/* on hover animate arrow */
+.desktop-shop-concern-item:hover .menu-products-arrow {
+  transform: translateX(4px);
+  transition: all 0.3s ease-in-out;
+}
+
+.desktop-shop-concern-item:hover .menu-products-arrow path {
+  stroke: #164f49;
+}
